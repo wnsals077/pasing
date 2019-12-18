@@ -13,7 +13,7 @@ import MapKit
 class ViewController: UIViewController, MKMapViewDelegate, XMLParserDelegate {
     @IBOutlet weak var MapView: MKMapView!
     var myaddressData = [addressData]()
-    
+    //
     var dlat = ""
     var dlng = ""
     var dtitle = ""
